@@ -19,13 +19,17 @@ System.out.println(name.toUpperCase());
 		//    HINT: Use .length() to determine the number of characters in the String.
 for (int i = 0; i < name.length(); i++) {
 	char letter = name.charAt(i);
+	
 	if(i%2==0) {
-		name.toUpperCase();
+		letter = Character.toUpperCase(letter);
 	}
 	else {
-		name.toLowerCase();
+		letter = Character.toLowerCase(letter);
 	}
+	goofyName = goofyName + letter;
 }
+System.out.println(goofyName);
+
 				// 4. Create a char variable to store the next character of the name
 				//    use .charAt()
 	
