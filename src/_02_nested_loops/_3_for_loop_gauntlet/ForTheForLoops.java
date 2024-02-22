@@ -62,9 +62,9 @@ for (int i = 0; i < 10; i++) {
 	System.out.println();
 }
 System.out.println("------------------------------------");
-for (int i = 0; i < 6; i++) {
-	for (int d = 0; d < 6; d++) {
-		System.out.print("*");
+for (int i = 1; i < 7; i++) {
+	for (int d = 0; d < i; d++) {
+		System.out.print("* ");
 	}
 	System.out.println();
 }
